@@ -1,10 +1,28 @@
 # Tiny Tapeout project information
 project:
-  title:        ""      # Project title
-  author:       ""      # Your name
+  title:        ""      CAPC
+  author:       ""      YVD KAUSTHUBH
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  ""      # One line description of what your project does
-  language:     "Verilog" # other examples include SystemVerilog, Amaranth, VHDL, etc
+  description:  ""      u_processor module is a monolithic Verilog implementation of a custom, high-performance 32-bit processor architecture that supports:
+
+Classic RISC-style pipelining
+
+A GPU-like SIMD accelerator
+
+RTOS-like multitasking with context switching
+
+Cache and MMU
+
+System call interface
+
+Performance counters
+
+Branch prediction
+
+AI/ML acceleration
+
+
+  language:     "Verilog" 
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
   # How many tiles your design occupies? A single tile is about 167x108 uM.
